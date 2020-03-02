@@ -2,12 +2,14 @@
 title: "k-Means Clustering of Time Series Trajectories in R"
 author: "Keith McNulty"
 date: "02/03/2020"
-output: md_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# $k$-Means Clustering of Time Series Trajectories in R
 
 $k$-means Clustering is a very popular technique for simplifying datasets into *archetypes* or *clusters* of observations with similar properties.  The techniques works by 'forcing' the observations in $k$ different groups, with $k$ chosen by the analyst, such that variance within each group is minimized.  As with most statistical techniques, this analysis needs to be conducted with judgment.  Some choices of $k$ result in smaller groups for which the gain in insight is not sufficient to warrant them being treated different.  The [elbow method](https://www.r-bloggers.com/finding-optimal-number-of-clusters/) is a popular way to choose an appropriate value of $k$, but human judgment is still necessary in any such method.
 
@@ -132,10 +134,7 @@ kml::choice(survey_data_cld)
 If your command succeeds here, you should see a screen that you can interact with like I am doing in this video:
 
 <center>
-<video width="320" height="240" controls>
-  <source src="choice.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+![](https://github.com/keithmcnulty/longitudinal_clustering/blob/master/choice.mp4)
 </center>
 
 On the left are the various values of $k$ and you can move them up or down using the arrow keys, while you can move left or right to see the different redrawings for each $k$.  The full navigation instructions should be visible in your R console window, like this:

@@ -1,3 +1,6 @@
+*k*-Means Clustering of Time Series Trajectories in R
+=====================================================
+
 *k*-means Clustering is a very popular technique for simplifying
 datasets into *archetypes* or *clusters* of observations with similar
 properties. The techniques works by ‘forcing’ the observations in *k*
@@ -286,9 +289,7 @@ If your command succeeds here, you should see a screen that you can
 interact with like I am doing in this video:
 
 <center>
-<video width="320" height="240" controls>
-<source src="choice.mp4" type="video/mp4">
-Your browser does not support the video tag. </video>
+![](https://github.com/keithmcnulty/longitudinal_clustering/blob/master/choice.mp4)
 </center>
 
 On the left are the various values of *k* and you can move them up or
