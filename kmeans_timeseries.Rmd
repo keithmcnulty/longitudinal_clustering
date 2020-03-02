@@ -134,7 +134,7 @@ kml::choice(survey_data_cld)
 If your command succeeds here, you should see a screen that you can interact with like I am doing in this video:
 
 <center>
-![](https://github.com/keithmcnulty/longitudinal_clustering/blob/master/choice.mp4)
+![](choice.mp4){width=400 height=300}
 </center>
 
 On the left are the various values of $k$ and you can move them up or down using the arrow keys, while you can move left or right to see the different redrawings for each $k$.  The full navigation instructions should be visible in your R console window, like this:

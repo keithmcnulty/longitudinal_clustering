@@ -289,7 +289,7 @@ If your command succeeds here, you should see a screen that you can
 interact with like I am doing in this video:
 
 <center>
-![](https://github.com/keithmcnulty/longitudinal_clustering/blob/master/choice.mp4)
+<video src="choice.mp4" width="400" height="300" controls=""><a href="choice.mp4">Video</a></video>
 </center>
 
 On the left are the various values of *k* and you can move them up or
